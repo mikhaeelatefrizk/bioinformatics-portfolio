@@ -4,7 +4,7 @@ Three end-to-end reproducible bioinformatics analyses on public datasets —
 bulk RNA-seq differential expression, clinical survival analysis, and
 single-cell RNA-seq — each built from raw data to publication-quality figures.
 
-**Author:** Mikhaeel Wahba · Rotterdam · [GitHub](#) · [Email](#)
+**Author:** Mikhaeel Wahba · Rotterdam · [GitHub](https://github.com/mikhaeelatefrizk) · [mikhaeelatefrizk@proton.me](mailto:mikhaeelatefrizk@proton.me)
 
 ---
 
