@@ -1,0 +1,3 @@
+"stage","n_cells","median_nFeature","median_nCount","median_pct_mt"
+"pre_filter",2700,NA,NA,NA
+"post_filter",2638,819,2213,2.01

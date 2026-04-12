@@ -1,0 +1,41 @@
+# R / RStudio
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+.Rproj.user
+*.Rcheck/
+
+# Large raw data - keep out of git, regenerate via scripts
+**/data_in/*.gz
+**/data_in/*.tar
+**/data_in/*.bam
+**/data_in/*.sra
+**/data_in/*.fastq
+**/data_in/*.fq
+**/data_in/*.fastq.gz
+**/data_in/*.fq.gz
+
+# TCGA/GDC download caches (can be 2+ GB)
+**/data_in/GDCdata/
+**/data_in/*.rds
+
+# 10x Genomics unpacked cellranger output (raw input, regenerable)
+**/data_in/filtered_gene_bc_matrices/
+**/data_in/*.mtx
+**/data_in/*.tsv
+
+# Large intermediate RDS files
+**/data_out/rds/*.rds
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*~
