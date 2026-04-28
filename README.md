@@ -19,9 +19,10 @@ Twelve tame vs. twelve aggressive foxes, prefrontal-cortex RNA-seq,
 DESeq2 + apeglm differential expression, clusterProfiler GO enrichment.
 
 - **679 DE genes** at padj < 0.05 (584 up-regulated in the tame line, 95 down)
-- Top hits **PCDHGA1** (padj 2.4×10⁻⁶) and **DKKL1** (padj 7.6×10⁻⁶) —
-  the same two genes the original paper flagged as most significant,
-  recovered independently with DESeq2 instead of edgeR
+- **PCDHGA1** (padj 2.4×10⁻⁶) and **DKKL1** (padj 7.6×10⁻⁶) — the two genes
+  Wang et al. specifically called out as their top hits — recovered as
+  ranks 3 and 5 here with DESeq2 instead of edgeR (independent methodology
+  cross-check)
 - **16 enriched GO Biological Process terms** including gliogenesis and
   vasculature development
 - Dataset: [GEO GSE76517](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76517)
